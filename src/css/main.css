@@ -229,6 +229,56 @@ main {
   margin-top: 0.3rem;
 }
 
+/* --- Foto do Integrante --- */
+.member-photo {
+  margin: 0 0 var(--spacing-sm) 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background: var(--color-surface-2);
+  border: 2px solid var(--color-surface-2);
+  transition: border-color var(--transition);
+}
+
+.member-card:hover .member-photo {
+  border-color: var(--color-red);
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform var(--transition);
+}
+
+.member-card:hover .member-photo img {
+  transform: scale(1.04);
+}
+
+/* Placeholder exibido quando a imagem não é encontrada */
+.member-photo--missing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--color-surface-2);
+}
+
+.member-photo--missing::after {
+  content: '🦊';
+  font-size: 3rem;
+  opacity: 0.3;
+}
+
+.member-photo--missing img {
+  display: none;
+}
+
+.ex-member .member-photo {
+  filter: grayscale(60%);
+}
+
 /* --- Cards de Integrantes --- */
 .members-grid {
   display: grid;
