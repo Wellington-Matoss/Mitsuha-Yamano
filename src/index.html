@@ -1,14 +1,77 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Olá Mundo</title>
-    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>BABYMETAL — Página Inicial</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <script src="js/main.js" defer></script>
   </head>
 
   <body>
-    Hello World
-    <p>teste</p>
+    <nav class="site-nav" aria-label="Navegação principal">
+      <div class="container">
+        <a href="index.html" class="nav-logo" aria-label="BABYMETAL — Início">BABYMETAL</a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="integrantes.html">Integrantes</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="site-header">
+      <div class="container">
+        <span class="header-kitsune" aria-hidden="true">🦊</span>
+        <h1>BABYMETAL</h1>
+        <p class="tagline">Kitsune Metal — Onde o J-Pop encontra o Heavy Metal</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="section" aria-labelledby="sobre-titulo">
+          <h2 id="sobre-titulo">Sobre a Banda</h2>
+          <p>
+            BABYMETAL é um grupo japonês de kawaii metal formado em 2010 em Tóquio. O projeto surgiu como subunidade do grupo idol
+            <strong>Sakura Gakuin</strong> e rapidamente ganhou identidade própria, combinando a energia brutal do heavy metal com a leveza e o charme
+            do J-Pop.
+          </p>
+          <p>
+            Com performances teatrais, figurinos marcantes e uma mitologia própria envolvendo raposas (<em>kitsune</em>) e o deus do metal
+            <em>Kitsune-sama</em>, o grupo conquistou plateias ao redor do mundo, se apresentando em festivais como <strong>Glastonbury</strong>,
+            <strong>Download Festival</strong> e abrindo turnês para bandas como <strong>Red Hot Chili Peppers</strong> e <strong>Metallica</strong>.
+          </p>
+          <blockquote class="band-quote"><strong>"Give me Choco!! \(^o^)/"</strong> — BABYMETAL</blockquote>
+        </section>
+
+        <div class="divider" aria-hidden="true">🦊</div>
+
+        <section class="section" aria-labelledby="discografia-titulo">
+          <h2 id="discografia-titulo">Discografia Principal</h2>
+          <ul>
+            <li><strong>BABYMETAL</strong> (2014) — Álbum de estreia</li>
+            <li><strong>Metal Resistance</strong> (2016)</li>
+            <li><strong>Metal Galaxy</strong> (2019)</li>
+            <li><strong>THE OTHER ONE</strong> (2023)</li>
+          </ul>
+        </section>
+
+        <div class="divider" aria-hidden="true">🦊</div>
+
+        <section class="section" aria-labelledby="integrantes-titulo">
+          <h2 id="integrantes-titulo">As Integrantes</h2>
+          <p>
+            O grupo conta atualmente com três integrantes: <strong>Su-Metal</strong>, <strong>Moametal</strong> e <strong>Momometal</strong>, cada uma
+            com um papel único dentro da performance do grupo.
+          </p>
+          <a href="integrantes.html" class="cta-link">Ver todas as integrantes</a>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 BABYMETAL Fan Site. Todos os direitos reservados.</p>
+    </footer>
   </body>
 </html>
