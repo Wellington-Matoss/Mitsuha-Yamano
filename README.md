@@ -60,3 +60,5 @@ O projeto é estático (HTML + CSS + JS puro). Basta abrir `src/index.html` no n
 ## 📜 Licença
 
 Projeto de fã sem fins lucrativos. BABYMETAL é propriedade da **Amuse Inc.**
+
+##############################
