@@ -1,32 +1,102 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Integrantes - BabyMEtal</title>
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <title>Integrantes — BABYMETAL</title>
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cinzel+Decorative:wght@700&family=Noto+Sans+JP:wght@300;400;700&display=swap"
+      as="style"
+    />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Integrantes da Banda BabyMEtal</h1>
+    <nav class="site-nav" aria-label="Navegação principal">
+      <div class="container">
+        <a href="index.html" class="nav-logo" aria-label="BABYMETAL — Início">BABYMETAL</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="integrantes.html" aria-current="page">Integrantes</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="site-header">
+      <div class="container">
+        <span class="header-kitsune" aria-hidden="true">🦊</span>
+        <h1>Integrantes</h1>
+        <p class="tagline">As guerreiras do Kitsune Metal</p>
+      </div>
     </header>
+
     <main>
-      <section>
-        <h2>Su-Metal</h2>
-        <p>Vocalista principal e líder da banda. Conhecida por sua poderosa voz e presença de palco.</p>
-      </section>
-      <section>
-        <h2>Moametal</h2>
-        <p>Vocalista e dançarina. Destaca-se por suas habilidades de dança e carisma.</p>
-      </section>
-      <section>
-        <h2>Yuimetal</h2>
-        <p>Vocalista e dançarina. Famosa por sua energia e interação com o público.</p>
-      </section>
+      <div class="container">
+        <section class="section" aria-labelledby="atuais-titulo">
+          <h2 id="atuais-titulo">Membros Atuais</h2>
+
+          <div class="members-grid">
+            <article class="member-card" aria-labelledby="sumetal-nome">
+              <span class="member-icon" aria-hidden="true">🎤</span>
+              <h3 id="sumetal-nome">Su-Metal</h3>
+              <p class="member-real-name">Suzuka Nakamoto</p>
+              <span class="member-role">Vocalista principal</span>
+              <p>
+                Líder e voz central do BABYMETAL. Suzuka impressiona pelo alcance vocal extraordinário, transitando com naturalidade entre linhas
+                melódicas delicadas e passagens de metal intenso. Sua presença de palco é amplamente reconhecida como uma das mais poderosas do
+                cenário metal mundial.
+              </p>
+            </article>
+
+            <article class="member-card" aria-labelledby="moametal-nome">
+              <span class="member-icon" aria-hidden="true">💃</span>
+              <h3 id="moametal-nome">Moametal</h3>
+              <p class="member-real-name">Moa Kikuchi</p>
+              <span class="member-role">Vocalista &amp; Dançarina</span>
+              <p>
+                Com uma energia contagiante e habilidades de dança afiadas, Moa é o coração pulsante das performances do grupo. Seu carisma genuíno e
+                entusiasmo em palco cativam o público desde os primeiros shows da banda.
+              </p>
+            </article>
+
+            <article class="member-card" aria-labelledby="momometal-nome">
+              <span class="member-icon" aria-hidden="true">🌸</span>
+              <h3 id="momometal-nome">Momometal</h3>
+              <p class="member-real-name">Momoko Okazaki</p>
+              <span class="member-role">Vocalista &amp; Dançarina</span>
+              <p>
+                Momoko integrou o grupo como "Avenger" em 2018 e, após provar seu valor em inúmeras apresentações ao redor do mundo, foi confirmada
+                como membro oficial do BABYMETAL em 2023. Sua graciosidade e precisão coreográfica completam a tríade do grupo.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <div class="divider" aria-hidden="true">🦊</div>
+
+        <section class="section ex-members-section" aria-labelledby="ex-titulo">
+          <h2 id="ex-titulo">Ex-integrantes</h2>
+
+          <div class="members-grid">
+            <article class="member-card ex-member" aria-labelledby="yuimetal-nome">
+              <span class="member-icon" aria-hidden="true">⭐</span>
+              <h3 id="yuimetal-nome">Yuimetal</h3>
+              <p class="member-real-name">Yui Mizuno</p>
+              <span class="ex-badge">Ex-integrante — saiu em 2018</span>
+              <p>
+                Yui foi membro fundadora do BABYMETAL e peça fundamental na construção da identidade visual e sonora do grupo. Sua última aparição
+                oficial foi no Tokyo Dome em 2016. Em outubro de 2018, a saída de Yui foi confirmada oficialmente. Sua contribuição para o grupo é
+                lembrada com carinho pelos fãs da Fox Army.
+              </p>
+            </article>
+          </div>
+        </section>
+      </div>
     </main>
-    <footer>
-      <p>&copy; 2023 BabyMEtal. Todos os direitos reservados.</p>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 BABYMETAL Fan Site. Todos os direitos reservados.</p>
     </footer>
   </body>
 </html>
