@@ -10,11 +10,32 @@ Site de fã dedicado ao grupo japonês **BABYMETAL**, combinando a estética do 
 src/
 ├── index.html          # Página inicial (sobre a banda e discografia)
 ├── integrantes.html    # Página de integrantes (atuais e ex-membros)
+├── assets/             # Imagens das integrantes
+│   ├── sumetal.webp
+│   ├── moametal.webp
+│   ├── momometal.webp
+│   └── yuimetal.webp
 ├── css/
 │   └── main.css        # Folha de estilos principal
 └── js/
     └── main.js         # JavaScript (reservado para futuras funcionalidades)
 ```
+
+---
+
+## 🖼️ Imagens
+
+As fotos das integrantes ficam em `src/assets/` no formato `.webp`:
+
+| Arquivo          | Integrante                 |
+| ---------------- | -------------------------- |
+| `sumetal.webp`   | Su-Metal (Suzuka Nakamoto) |
+| `moametal.webp`  | Moametal (Moa Kikuchi)     |
+| `momometal.webp` | Momometal (Momoko Okazaki) |
+| `yuimetal.webp`  | Yuimetal (Yui Mizuno)      |
+
+Caso um arquivo não seja encontrado, o card exibe um placeholder com o emoji 🦊 automaticamente.
+O formato `.webp` é recomendado, mas qualquer formato de imagem funciona — basta atualizar o atributo `src` no `integrantes.html`.
 
 ---
 
